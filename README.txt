@@ -1,5 +1,3 @@
-tz2550 Tailai Zhang
-
 # Instructions for compiling the program:
 
 My submission should contain 10 files: README.txt, test.txt, Makefile, ChatApp.c, interface.c, interface.h, udp.c, udp.h, user.c, and user.h.
