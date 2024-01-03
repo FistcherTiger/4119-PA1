@@ -1,16 +1,3 @@
-# Instructions for compiling the program:
-
-My submission should contain 10 files: README.txt, test.txt, Makefile, ChatApp.c, interface.c, interface.h, udp.c, udp.h, user.c, and user.h.
-
-Put all files in one folder under linux environment and type make. You should see the following:
-cc -Wall -c ChatApp.c
-cc -Wall -c udp.c
-cc -Wall -c interface.c
-cc -Wall -c user.c
-cc -Wall -o ChatApp ChatApp.o udp.o interface.o user.o -lpthread
-
-Then you type ls and you should see an executable called ChatApp, run ./ChatApp -h for seeing how to start the program.
-
 # Implementation Overview
 
 I put codes for server and client into one program, but implementation-wise the two modes runs their own code. 
